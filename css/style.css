@@ -47,25 +47,3 @@ body {
 #scoreContainer > * {
     margin: 5px;
 }
-#loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: grid;
-    place-items: center;
-    width: 100vw;
-    height: 100vh;
-    background: #fff;
-    z-index: 10000;
-}
-#loader #loader-text {
-    animation: blink 1s linear infinite;
-}
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
