@@ -47,3 +47,6 @@ body {
 #scoreContainer > * {
     margin: 5px;
 }
+canvas {
+    image-rendering: pixelated;
+}
